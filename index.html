@@ -151,9 +151,9 @@ function calculate() {
     case "send-money":
       if (amount <= 100) {
         charge = 0;
-      } else if (amount > 100 && amount <= 24000) {
+      } else if (amount > 100 && amount <= 25000) {
         charge = 5;
-      } else if (amount > 24000 && amount <= 100000) {
+      } else if (amount > 25001 && amount <= 100000) {
         charge = 10;
       }
       totalAmount = amount + charge;
